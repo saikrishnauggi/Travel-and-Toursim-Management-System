@@ -68,7 +68,7 @@ ________________________________________
 
 
 
-📄 2. Abstract
+2. Abstract
 The Travel and Tourism Management System is an advanced, real-time application built using Java Swing, JDBC, and MySQL, designed to streamline the various aspects of customer management, tour management, and destination exploration for travel agencies or organizations.
 The system enables user-friendly interaction with customers, manages the available tour packages, allows customer registration, and enables visualization of travel destinations via interactive slideshows. This modular application adheres to object-oriented principles like abstraction and encapsulation, integrates database management using JDBC, and ensures an intuitive graphical user interface for administrative tasks and real-time visualization.
 
@@ -89,7 +89,7 @@ The system enables user-friendly interaction with customers, manages the availab
 
 
 ________________________________________
-📜 3. Introduction
+3. Introduction
 3.1 Project Background
 In the modern era, Travel Agencies need advanced and innovative software systems to manage customers, tours, and services. Existing systems often lack flexibility, visualization, and user interaction. The Travel and Tourism Management System aims to bridge this gap by offering a real-time system for managing customers, viewing destinations, and administrating packages.
 This application leverages Java’s robust Swing toolkit and database management capabilities to deliver fast, user-friendly experiences.
@@ -111,7 +111,7 @@ ________________________________________
 
 
 
-🏆 4. Objectives
+4. Objectives
 The main objectives of the system are:
 1.	Customer Management: Allow administrators to add, edit, or search for customer records.
 2.	Destination Slideshow: Implement an automatic image slideshow showcasing popular destinations.
@@ -135,7 +135,7 @@ The main objectives of the system are:
 
 
 ________________________________________
-💼 5. Scope of the Project
+5. Scope of the Project
 The scope of this project is defined as follows:
 In Scope
 •	Customer Authentication: Allow users to log in securely to view their respective information.
@@ -160,7 +160,7 @@ Out of Scope
 
 
 ________________________________________
-📜 6. System Features
+6. System Features
 The system implements the following features:
 1.	Customer Registration & Management
 Allows admins to add, edit, or view customer data like name, phone number, and address.
@@ -189,7 +189,7 @@ An intuitive and interactive user interface designed with Java Swing.
 
 
 ________________________________________
-🖥️ 7. System Architecture & Design
+7. System Architecture & Design
 The system is developed with a Layered Architecture combining GUI, database logic, and database layers.
 Architecture Layers
 1.	Presentation Layer
@@ -216,7 +216,7 @@ Diagram:
 
 
 ________________________________________
-💾 8. Database Design
+8. Database Design
 The system uses MySQL as the database backend. The database stores user/customer information and other essential data.
 Entity Relationship Diagram (ERD)
 The database schema includes:
@@ -319,7 +319,7 @@ CREATE TABLE bookHotel (
 
 
 ________________________________________
-🛠️ 9. System Implementation
+9. System Implementation
 The system integrates Java Swing with MySQL through JDBC.
 1.	User Login: Validates users before allowing access to features.
 2.	Customer Data Management: Admins can edit or add customer information dynamically.
@@ -344,7 +344,7 @@ The system integrates Java Swing with MySQL through JDBC.
 
 
 ________________________________________
-🧪 10. Testing & Evaluation
+10. Testing & Evaluation
 The system underwent multiple rounds of testing:
 Unit Testing
 Tested each feature like login, customer CRUD, slideshow, and database query execution independently.
@@ -368,7 +368,7 @@ Checked database response time, GUI responsiveness, and database read/write time
 
 
 ________________________________________
-⚠️ 11. Challenges Faced
+11. Challenges Faced
 1.	JDBC Integration with MySQL: Managed database errors and connection issues.
 2.	GUI Responsiveness: Optimized Java Swing for seamless interactions.
 3.	Secure Query Execution: Addressed SQL Injection through PreparedStatements.
@@ -393,7 +393,7 @@ ________________________________________
 
 
 ________________________________________
-🚀 12. Future Scope
+12. Future Scope
 1.	Introduce role-based access control for admins and users.
 2.	Implement data analytics reporting for management insights.
 3.	Enable real-time payment gateway integration.
@@ -418,7 +418,7 @@ ________________________________________
 
 
 ________________________________________
-🏁 13. Conclusion
+13. Conclusion
 The Travel and Tourism Management System effectively solves customer and tour data management challenges with real-time features and user interactivity. It adheres to object-oriented principles and demonstrates the potential for future enhancements.
 
 
@@ -441,7 +441,7 @@ The Travel and Tourism Management System effectively solves customer and tour da
 
 
 ________________________________________
-📚 References
+References
 1.	JDBC Documentation - Oracle Docs
 2.	MySQL Documentation - MySQL Docs
 3.	Java Swing Tutorial - Oracle Swing Guide
